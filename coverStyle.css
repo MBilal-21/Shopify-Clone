@@ -1,0 +1,102 @@
+.mb-10 {
+    margin-bottom: 2.5rem;
+}
+
+.md\:mb-0 {
+    margin-bottom: 0;
+}
+
+.sm\:pb-2 {
+    padding-bottom: 0.5rem;
+}
+
+.pt-global-header {
+    padding-top: 4.5rem; /* This assumes --global-header-padding-top is defined elsewhere in your CSS */
+}
+
+.md\:pb-8 {
+    padding-bottom: 2rem;
+}
+
+.relative {
+    position: relative;
+}
+
+.z-10 {
+    z-index: 10;
+}
+
+.md\:grid {
+    display: grid;
+}
+
+.md\:place-items-center {
+    place-items: center;
+}
+
+.md\:min-h-\[720px\] {
+    min-height: 720px;
+}
+
+.lg\:min-h-\[780px\] {
+    min-height: 780px;
+}
+
+.md\:max-h-\[90dvh\] {
+    max-height: 90dvh;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.bg-cover {
+    background-size: cover;
+}
+
+/* .bg-\[url\(https\:\/\/cdn\.shopify\.com\/b\/shopify-brochure2-assets\/bc2165e8963e937c15a77355632344df\.webp\?originalWidth\=1620\&originalHeight\=2160\&width\=1080\&height\=1440\)\] {
+    background-image: url('https://cdn.shopify.com/b/shopify-brochure2-assets/bc2165e8963e937c15a77355632344df.webp?originalWidth=1620&originalHeight=2160&width=1080&height=1440');
+} */
+
+/* [@media(min-width:711px)]\:bg-\[url\(https\:\/\/cdn\.shopify\.com\/b\/shopify-brochure2-assets\/339113bc828c2c7ab760a434e1703b93\.webp\?originalWidth\=3840\&originalHeight\=2160\&width\=1920\&height\=1080\)\] {
+    background-image: url('https://cdn.shopify.com/b/shopify-brochure2-assets/339113bc828c2c7ab760a434e1703b93.webp?originalWidth=3840&originalHeight=2160&width=1920&height=1080');
+} */
+
+@media (min-width: 711px) {
+    .md\:mb-0 {
+        margin-bottom: 0;
+    }
+
+    .md\:pb-8 {
+        padding-bottom: 2rem;
+    }
+
+    .md\:grid {
+        display: grid;
+    }
+
+    .md\:place-items-center {
+        place-items: center;
+    }
+
+    .md\:min-h-\[720px\] {
+        min-height: 720px;
+    }
+
+    .lg\:min-h-\[780px\] {
+        min-height: 780px;
+    }
+
+    .md\:max-h-\[90dvh\] {
+        max-height: 90dvh;
+    }
+
+    /* .[@media(min-width:711px)]\:bg-\[url\(https\:\/\/cdn\.shopify\.com\/b\/shopify-brochure2-assets\/339113bc828c2c7ab760a434e1703b93\.webp\?originalWidth\=3840\&originalHeight\=2160\&width\=1920\&height\=1080\)\] {
+        background-image: url('https://cdn.shopify.com/b/shopify-brochure2-assets/339113bc828c2c7ab760a434e1703b93.webp?originalWidth=3840&originalHeight=2160&width=1920&height=1080');
+    } */
+}
