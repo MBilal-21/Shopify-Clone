@@ -528,6 +528,66 @@ footer{
     padding-right: 0px;
 }
 
+/* ----------section-4-------------- */
+.section-4{
+    background-color: white;
+    padding: 40px 0;
+    display: grid;
+    place-items: center;
+    grid-template-rows: auto;
+    gap: 50px 0px;
+    /* grid-row-gap: 40px; */
+    justify-content: center;
+    overflow: hidden;
+}
+.s-4-row-1{
+    font-weight: bold;
+}
+.s-4-row-1 p{
+    font-size: 1rem;
+}
+.s-4-row-1 h2{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.section-4 svg{
+    width: 24px;
+    height: 24px;
+}
+.s-4-images{
+    overflow: auto;
+    padding: 0 20px;
+}
+.s-4-images img{
+    flex-basis: 30%;
+}
+.btn-start-selling{
+    display: block;
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    text-decoration: none;
+    width: 70%;
+    overflow: hidden;
+}
+.btn-start-selling svg:first-child{
+    margin-left: -25px;
+}
+.btn-start-selling svg:last-child{
+    float: right;
+    
+}
+.btn-start-selling svg{
+    transition: all .7s ease;
+}
+.btn-start-selling:hover svg:first-child {
+    margin-left: 0px;
+}
+.btn-start-selling:hover svg:last-child {
+    margin-right: -25px;
+}
+
 /* ------------media query---------------- */
 @media screen and (max-width: 992px) {
     /* ------------------------- */
@@ -683,3 +743,73 @@ footer{
 
 }
 /* ------------------------------------------ */
+/* 
+.sction-3 {
+    background-color: #f7f7f7;
+    padding: 40px;
+}
+
+
+.sction-3 h1:first-child {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 900px) {
+    .md\:w-full {
+        width: 100%;
+    }
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+}
+
+.mt-7 {
+    margin-top: 1.75rem;
+}
+
+.mb-5 {
+    margin-bottom: 1.25rem;
+}
+
+@media (min-width: 900px) {
+    .md\:justify-between {
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 900px) {
+    .md\:flex-row {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 900px) {
+    .md\:h-auto {
+        height: auto;
+    }
+}
+
+@media (min-width: 900px) {
+    .md\:flex {
+        display: flex;
+    }
+}
+
+.z-30 {
+    z-index: 30;
+}
+
+.text-black {
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+} */
+
+
+/* ---------section 4------------------- */
